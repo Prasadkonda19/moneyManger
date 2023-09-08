@@ -14,7 +14,7 @@ const MoneyDetails = props => {
         />
         <div>
           <p>Your Balance</p>
-          <p data-testid="balanceAmount">RS {balanceAmount}</p>
+          <p data-testid="balanceAmount">Rs {balanceAmount}</p>
         </div>
       </div>
       <div>
@@ -25,7 +25,7 @@ const MoneyDetails = props => {
         />
         <div>
           <p>Your Income</p>
-          <p data-testid="incomeAmount">RS {incomeAmount}</p>
+          <p data-testid="incomeAmount">Rs {incomeAmount}</p>
         </div>
       </div>
       <div>
@@ -36,7 +36,7 @@ const MoneyDetails = props => {
         />
         <div>
           <p>Your Expenses</p>
-          <p data-testid="expensesAmount">RS {expensiveAmount}</p>
+          <p data-testid="expensesAmount">Rs {expensiveAmount}</p>
         </div>
       </div>
     </div>
